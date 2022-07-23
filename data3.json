@@ -1,0 +1,12 @@
+{
+    "id": "7694",
+    "parent_exercise_id": null,
+    "name": "Dharamshala",
+    "slug": "residential-programmes_json__Dharamshala_json",
+    "sequence_num": 200,
+    "review_type": "manual",
+    "solution": null,
+    "content": "[\"{\\\"value\\\":[{\\\"component\\\":\\\"header\\\",\\\"variant\\\":1,\\\"value\\\":\\\"Dharamshala_key1\\\"},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key2\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key3\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key4\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key5\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key6\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key7\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key8\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"header\\\",\\\"variant\\\":3,\\\"value\\\":\\\"Dharamshala_key9\\\"},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key10\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}},{\\\"component\\\":\\\"text\\\",\\\"value\\\":\\\"Dharamshala_key11\\\",\\\"decoration\\\":{\\\"type\\\":\\\"bullet\\\"}}]}\"]",
+    "submission_type": null,
+    "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Dharamshala.json"
+}
