@@ -4,6 +4,7 @@ a=r.json()
 with open("courses.json","w") as f1:
     new=json.dump(a,f1,indent=4)
 store=(a["availableCourses"])
+
 name,id=[],[]
 for i in range(len(store)):
     a=store[i]["name"]
@@ -22,7 +23,7 @@ with open("api.json","w") as f2:
     json.dump(b,f2,indent=4)
 req1=requests.get("http://saral.navgurukul.org/api/courses/"+user2+"/exercises")
 content=req1.json()
-with open("api2.json","w") as f3:
+with open("api2.json","w+") as f3:
     json.dump(content,f3,indent=4)
 slug=[]
 i=0
@@ -30,20 +31,20 @@ while i<len(content["data"]):
     print(i+1,content["data"][i]["name"])
     print()
     if content["data"][i]["childExercises"]==[]:
-        print("         ","[]")
+        print("    ","[]")
         store=content["data"][i]["slug"]
         slug.append(store)
     else:
         j=0
         while j<len(content["data"][i]["childExercises"]):
-            print("     ",j+1,content["data"][i]["childExercises"][j]["name"])
+            print(" ",j+1,content["data"][i]["childExercises"][j]["name"])
             j+=1
     i+=1  
 k=0
 while k<len(slug):
-    print(k,slug[k])
+    print(k+1,slug[k])
     k=k+1
-var1=int(input("Show the content of slug:- "))
+var1=int(input("Show the content of slug:- "))-1
 var2=requests.get("https://saral.navgurukul.org/api/courses/"+user2+"/exercise/getBySlug?slug="+(slug[var1]))
 data3=var2.json()
 with open ("data3.json","w") as f3:
